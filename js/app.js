@@ -6130,6 +6130,12 @@ const menu = () => {
       window.fullpage_api.setAllowScrolling(true);
     });
   });
+  const appHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+  };
+  window.addEventListener('resize', appHeight);
+  appHeight();
 };
 /* harmony default export */ const MainMenu = (menu);
 ;// CONCATENATED MODULE: ./node_modules/graph-modal/src/graph-modal.js
