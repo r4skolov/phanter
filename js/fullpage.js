@@ -12089,6 +12089,11 @@ gsapWithCSS.config({
         x: 0,
         opacity: 1
       });
+      if (destination.index === 0) {
+        const vid = document.getElementById("phanter");
+        vid.autoplay = true;
+        vid.load();
+      }
       if (destination.index === 1) {
         tl.fromTo('.our-works__image', 0.5, {
           x: '-50',
