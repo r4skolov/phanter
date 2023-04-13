@@ -39,8 +39,13 @@
 									<span>Home</span>
 								</a>
 							</li>
-							<li class="nav__item" data-menuanchor="about">
-								<a href="#about" class="nav__link">
+							<li class="nav__item" data-menuanchor="our-work">
+								<a href="#our-work" class="nav__link">
+									<span>our work</span>
+								</a>
+							</li>
+							<li class="nav__item" data-menuanchor="about-us">
+								<a href="#about-us" class="nav__link">
 									<span>About</span>
 								</a>
 							</li>
@@ -69,7 +74,7 @@
 
 	<div id="fullpage">
 
-		<div class="section" data-anchor="main">
+		<div class="section" data-anchor="home">
 			<section class="hero wrapper">
 				<div class=" hero__container">
 					<video class="hero__bg" id="phanter" muted playsinline loop autoplay>
@@ -85,11 +90,10 @@
 						</h1>
 						<div class="text hero__text">
 							<p>
-								The needs of its clients and dentists are given priority by this state-of-the-art dental laboratory
+								The needs of its clients and dentists are given priority by this state-of-the-art dental laboratory. Our technicians are experts in the field. We combine our years of experience, the finest biocompatible materials, modern technology, and meticulous attention to detail to give you the expertise that you deserve.
 							</p>
 							<p>
-								Our technicians are experts in the field. We combine our years of experience, the finest biocompatible
-								materials, modern technology, and meticulous attention to detail to give you the expertise that you deserve.
+								There is not a single one out there that describes us correctly…Oh well, you will just have to figure us out on your own.
 							</p>
 						</div>
 					</div>
@@ -113,7 +117,7 @@
 
 		</div>
 
-		<div class="section" data-anchor="works">
+		<div class="section" data-anchor="our-work">
 			<section class="our-works wrapper">
 				<div class="our-works__container">
 					<h2 class="title our-works__title">
@@ -121,13 +125,12 @@
 							our
 						</span>
 						<span class="title__bottom hover-title">
-							works
+							work
 						</span>
 					</h2>
 					<div class="our-works__wrap">
 						<p class="text our-works__text">
-							Elite Dental dental clinic in Tirana is the best clinic in Albania which offers services for your dental
-							care with the latest dentistry technologies where you can find the best dentists.
+							To achieve a high standard, we have invested in the latest digital dental technologies. We are equipped with a laboratory that can cater to clinicians who vary in their practice from conventional dentistry, all the way up to a complete digital workflow. All the benefits that are provided by additive technologies are passed along to our clinicians and their patients.
 						</p>
 						<div class="our-works__slider" data-slider="work-slider">
 							<div class="swiper swiper--works">
@@ -298,14 +301,21 @@
 							</div>
 						</div>
 					</div>
-					<h2 class="title labs__title">
-						<span class="title__top hover-title">
-							our
-						</span>
-						<span class="title__bottom hover-title">
-							lab
-						</span>
-					</h2>
+					<div class="labs__wrap">
+						<h2 class="title labs__title">
+							<span class="title__top hover-title">
+								our
+							</span>
+							<span class="title__bottom hover-title">
+								lab
+							</span>
+						</h2>
+						<div class="labs__text">
+							<p>
+								With one entire wall made of full-length windows, our workspace is naturally lit from dawn to dusk. Working on the top floor provides a decent amount of peace-of-mind and allows for technicians to increase their creativity to meet the different levels of artwork required.
+							</p>
+						</div>
+					</div>
 					<div class="swiper-nav">
 						<div class="swiper-nav__button swiper-labs-prev">
 							<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -325,7 +335,7 @@
 
 		</div>
 
-		<div class="section" data-anchor="about">
+		<div class="section" data-anchor="about-us">
 			<section class="about wrapper">
 				<div class="about__container">
 					<picture class="about__img">
@@ -341,14 +351,15 @@
 							us
 						</span>
 					</h2>
-					<p class="about__text text">
-						Our mission is to give the best beautiful healthy smiles for the whole family. Using innovative technologies
-						and state-of-the-art-equipment, we strive to give our patients the best treatments for their individual
-						needs.
-					</p>
-					<a href="#" class="b-btn b-btn--circle">
+					<div class="about__text text">
+						<p>
+							We endeavor to provide state-of-the-art dental restorations for clinicians seeking a difference, enhancing their patient’s quality of life through smiling with self-confidence, while providing unrivalled support, innovation, and results that speak for themselves.
+
+						</p>
+					</div>
+					<button type="button" class="b-btn b-btn--circle" data-graph-path="two">
 						<span>Read more</span>
-					</a>
+					</button>
 				</div>
 			</section>
 
@@ -374,7 +385,7 @@
 										<span class="contacts-list__about">Orbit Tower Building 2286. Riyadh SA-12611, Saudi Arabia</span>
 									</li>
 									<li class="contacts-list__item">
-										<span class="contacts-list__name">Phone</span>
+										<span class="contacts-list__name">Phone </span>
 										<a href="tel:+966505705887" class="contacts-list__about">+966 50 570 5887</a>
 									</li>
 									<li class="contacts-list__item">
@@ -391,7 +402,7 @@
 										</div>
 										<div class="form__row form__row--error">
 											<label for="message-phone" class="form__label">
-												<input type="text" class="form__input" placeholder="Phone" name="message-phone" id="message-phone">
+												<input type="text" class="form__input" placeholder="Phone (please add country code before your number)" name="message-phone" id="message-phone">
 											</label>
 											<span class="form__error">Error! Wrong phone number</span>
 										</div>
@@ -424,7 +435,6 @@
 										<span class="title__top hover-title">Job</span>
 										<span class="title__bottom hover-title">order</span>
 									</h2>
-									<span class="contacts__subtitle">for complicated cases</span>
 								</div>
 								<div class="contacts__jaw">
 									<svg class="jaw" width="306" height="484" viewBox="0 0 306 484" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -534,7 +544,7 @@
 											</div>
 											<div class="form__row">
 												<label for="order-phone" class="form__label">
-													<input type="text" name="order-phone" id="order-phone" class="form__input" placeholder="Phone">
+													<input type="text" name="order-phone" id="order-phone" class="form__input" placeholder="Phone (please add country code before your number)">
 												</label>
 												<span class="form__error">Error! Wrong phone number</span>
 											</div>
@@ -781,6 +791,38 @@
 							</svg>
 						</div>
 					</div>
+				</section>
+			</div>
+		</div>
+		<div class="graph-modal__container graph-modal__container--text" role="dialog" aria-modal="true" data-graph-target="two">
+			<div class="graph-modal__content">
+				<section class="about-text">
+					<div class="about-text__container">
+						<button class="graph-modal__close js-modal-close" aria-label="Close modal window">
+							<svg width="18" height="8" viewBox="0 0 18 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.6" d="M17 4.5C17.2761 4.5 17.5 4.27614 17.5 4C17.5 3.72386 17.2761 3.5 17 3.5V4.5ZM0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM17 3.5H1V4.5H17V3.5Z" fill="white" />
+							</svg>
+							<span>Back</span>
+						</button>
+						<div class="about-text__text">
+							<p>
+								The Black Panther is a natural born leader, and all animals follow him. Its nature is considered ʻdiverse’ and ‘uncontaminated’.
+							</p>
+							<p>
+								Black Panther symbolises grace, beauty, protection, magic, inner power, flexibility and balance, and even the secrets of life.
+							</p>
+							<p>
+								We chose the Black Panther logo to reflect our long-standing dedication and experience in the field of restorative dentistry. We offer charming, attractive, and powerful solutions, that we care about to the smallest details, to help emulate beauty and confidence. Our team is flexible to any challenge and will provide a perfect balance between masticatory function and aesthetics.
+							</p>
+							<p>
+								Our ultimate goal is to help patients restore their confidence while supporting the dentists to achieve the best outcomes. For this reason, we treat cases as we would expect our own families to be treated – with honesty and respect. We ensure that our high standard of care and service is reflected within every aspect of our work.
+							</p>
+							<p>
+								To ensure that the team remains up to date with the latest innovations and techniques, we established a training center to encourage all staff members to undertake additional training and attend local and national conferences. This enables us to keep abreast with what is new and to be able to share our knowledge and expertise with anyone who might require it.
+							</p>
+						</div>
+					</div>
+
 				</section>
 			</div>
 		</div>
