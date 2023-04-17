@@ -12058,7 +12058,7 @@ gsapWithCSS.config({
     autoScrolling: true,
     navigationPosition: 'right',
     menu: '#menu',
-    anchors: ['home', 'our-work', 'our-lab', 'about-us', 'contacts'],
+    anchors: ['home', 'our-work', 'our-lab', 'about-us', 'contact-us'],
     easing: 'easeInOutCubic',
     scrollingSpeed: 900,
     afterLoad(origin, destination, direction) {},
